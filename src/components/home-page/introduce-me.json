@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_page_introduce_mes",
+  "info": {
+    "displayName": "IntroduceMe",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "IntroduceBodyText": {
+      "type": "richtext",
+      "required": true
+    },
+    "Avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

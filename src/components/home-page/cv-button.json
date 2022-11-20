@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_page_cv_buttons",
+  "info": {
+    "displayName": "CVButton",
+    "icon": "building"
+  },
+  "options": {},
+  "attributes": {
+    "ButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "Curriculum": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
